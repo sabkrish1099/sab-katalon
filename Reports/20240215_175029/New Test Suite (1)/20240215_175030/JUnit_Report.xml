@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="New Test Suite (1)" time="11.352" tests="2" failures="0" errors="0">
+   <testsuite name="New Test Suite (1)" tests="2" failures="0" errors="0" time="11.352" skipped="0" timestamp="15-02-2024T17:50:35" hostname="sabar - DESKTOP-IJ89Q1P" id="Test Suites/New Test Suite (1)">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\sabar\\Katalon\\sab-katalon1\\Reports\\20240215_175029\\New Test Suite (1)\\20240215_175030"/>
+         <property name="logFiles" value="D:\\sabar\\Katalon\\sab-katalon1\\Reports\\20240215_175029\\New Test Suite (1)\\20240215_175030\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="sabar - DESKTOP-IJ89Q1P"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.3.0.212"/>
+         <property name="browser" value="Chrome 121.0.0.0"/>
+         <property name="hostAddress" value="192.168.0.180"/>
+         <property name="sessionId" value="0c60ca249380e637859f42441bdb7fdc"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/New Test Case2" time="7.172" classname="Test Cases/New Test Case2" status="PASSED">
+         <system-out><![CDATA[15-02-2024T17:50:35 - [TEST_CASE][PASSED] - Test Cases/New Test Case2: Test Cases/New Test Case2
+
+15-02-2024T17:50:35 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+15-02-2024T17:50:35 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+15-02-2024T17:50:35 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+15-02-2024T17:50:37 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+15-02-2024T17:50:37 - [TEST_STEP][PASSED] - navigateToUrl("https://katalon-demo-cura.herokuapp.com/"): Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+15-02-2024T17:50:39 - [MESSAGE][PASSED] - Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+15-02-2024T17:50:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/a_Make Appointment")): Object: 'Object Repository/a_Make Appointment' is clicked on
+
+15-02-2024T17:50:40 - [MESSAGE][PASSED] - Object: 'Object Repository/a_Make Appointment' is clicked on
+
+15-02-2024T17:50:40 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/input_Username_username"), "John Doe"): Text 'John Doe' is set on object 'Object Repository/input_Username_username'
+
+15-02-2024T17:50:41 - [MESSAGE][PASSED] - Text 'John Doe' is set on object 'Object Repository/input_Username_username'
+
+15-02-2024T17:50:41 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/input_Password_password"), "g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM"): Text ****** has been set on object 'Object Repository/input_Password_password'
+
+15-02-2024T17:50:41 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/input_Password_password'
+
+15-02-2024T17:50:41 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/button_Login")): Object: 'Object Repository/button_Login' is clicked on
+
+15-02-2024T17:50:42 - [MESSAGE][PASSED] - Object: 'Object Repository/button_Login' is clicked on
+
+15-02-2024T17:50:42 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+15-02-2024T17:50:42 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/New Test Case1" time="4.011" classname="Test Cases/New Test Case1" status="PASSED">
+         <system-out><![CDATA[15-02-2024T17:50:42 - [TEST_CASE][PASSED] - Test Cases/New Test Case1: Test Cases/New Test Case1
+
+15-02-2024T17:50:42 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+15-02-2024T17:50:42 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+15-02-2024T17:50:42 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+15-02-2024T17:50:43 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+15-02-2024T17:50:43 - [TEST_STEP][PASSED] - navigateToUrl("https://katalon-demo-cura.herokuapp.com/"): Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+15-02-2024T17:50:45 - [MESSAGE][PASSED] - Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+15-02-2024T17:50:45 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/a_Make Appointment")): Object: 'Object Repository/a_Make Appointment' is clicked on
+
+15-02-2024T17:50:46 - [MESSAGE][PASSED] - Object: 'Object Repository/a_Make Appointment' is clicked on
+
+15-02-2024T17:50:46 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+15-02-2024T17:50:46 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[15-02-2024T17:50:35 - [TEST_SUITE][PASSED] - New Test Suite (1): Test Cases/New Test Case1]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

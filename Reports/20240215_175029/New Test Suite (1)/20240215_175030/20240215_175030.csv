@@ -1,0 +1,17 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+New Test Suite (1),Chrome 121.0.0.0,,,15-02-2024 17:50:35,15-02-2024 17:50:46,11.352s,PASSED
+,,,,,,,
+Test Cases/New Test Case2,Chrome 121.0.0.0,,,15-02-2024 17:50:35,15-02-2024 17:50:42,7.172s,PASSED
+"openBrowser("""")",Chrome 121.0.0.0,,,15-02-2024 17:50:35,15-02-2024 17:50:37,1.562s,PASSED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com/"")",Chrome 121.0.0.0,,,15-02-2024 17:50:37,15-02-2024 17:50:39,2.493s,PASSED
+"click(findTestObject(""Object Repository/a_Make Appointment""))",Chrome 121.0.0.0,,,15-02-2024 17:50:39,15-02-2024 17:50:40,0.724s,PASSED
+"setText(findTestObject(""Object Repository/input_Username_username""), ""John Doe"")",Chrome 121.0.0.0,,,15-02-2024 17:50:40,15-02-2024 17:50:41,0.859s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/input_Password_password""), ""g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM"")",Chrome 121.0.0.0,,,15-02-2024 17:50:41,15-02-2024 17:50:41,0.372s,PASSED
+"click(findTestObject(""Object Repository/button_Login""))",Chrome 121.0.0.0,,,15-02-2024 17:50:41,15-02-2024 17:50:42,0.865s,PASSED
+closeBrowser(),Chrome 121.0.0.0,,,15-02-2024 17:50:42,15-02-2024 17:50:42,0.111s,PASSED
+,,,,,,,
+Test Cases/New Test Case1,Chrome 121.0.0.0,,,15-02-2024 17:50:42,15-02-2024 17:50:46,4.011s,PASSED
+"openBrowser("""")",Chrome 121.0.0.0,,,15-02-2024 17:50:42,15-02-2024 17:50:43,0.739s,PASSED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com/"")",Chrome 121.0.0.0,,,15-02-2024 17:50:43,15-02-2024 17:50:45,2.471s,PASSED
+"click(findTestObject(""Object Repository/a_Make Appointment""))",Chrome 121.0.0.0,,,15-02-2024 17:50:45,15-02-2024 17:50:46,0.649s,PASSED
+closeBrowser(),Chrome 121.0.0.0,,,15-02-2024 17:50:46,15-02-2024 17:50:46,0.110s,PASSED
