@@ -23,9 +23,7 @@ WebUI.navigateToUrl('https://katalon-demo-cura.herokuapp.com/')
 
 WebUI.click(findTestObject('Object Repository/a_Make Appointment')) 
 
-test t = new test() 
-
-t.testing()
+CustomKeywords.'com.customkeyword.test.testing'()
 
 WebUI.closeBrowser()
 
