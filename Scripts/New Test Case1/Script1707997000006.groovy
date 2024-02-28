@@ -25,5 +25,5 @@ WebUI.click(findTestObject('Object Repository/a_Make Appointment'))
 
 CustomKeywords.'com.customkeyword.test.testing'()
 
-WebUI.closeBrowser() 
+WebUI.closeBrowser()
 
