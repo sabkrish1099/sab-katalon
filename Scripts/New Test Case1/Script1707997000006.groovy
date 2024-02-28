@@ -25,7 +25,7 @@ WebUI.click(findTestObject('Object Repository/a_Make Appointment'))
 
 test t = new test() 
 
-t.testing() 
+t.testing()
 
 WebUI.closeBrowser()
 
