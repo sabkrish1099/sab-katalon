@@ -23,7 +23,7 @@ import internal.GlobalVariable
 public class test {
 	def testing()
 	{
-		int i=10
+		int i=10 
 		println(i) 
 	}
 		
