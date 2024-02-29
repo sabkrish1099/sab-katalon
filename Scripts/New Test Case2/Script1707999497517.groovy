@@ -29,5 +29,6 @@ WebUI.setEncryptedText(findTestObject('Object Repository/input_Password_password
 
 WebUI.click(findTestObject('Object Repository/button_Login')) 
 
+
 WebUI.closeBrowser()
 
